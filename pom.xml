@@ -40,7 +40,7 @@
         <skip.unit.tests>false</skip.unit.tests>
     </properties>
     <build>
-        <finalName>maven-integration-testing</finalName>
+        <!--finalName>maven-integration-testing</finalName>
         <filters>
             <filter>profiles/${build.profile.id}/config.properties</filter>
         </filters>
@@ -49,7 +49,7 @@
                 <filtering>true</filtering>
                 <directory>src/main/resources</directory>
             </resource>
-        </resources>
+        </resources-->
         <plugins>
             <!-- Used to add source directories to our build. -->
             <plugin>
